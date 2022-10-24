@@ -24,7 +24,7 @@ const FoodCard = (props) => {
         />
         <CardContent>
           <Typography gutterBottom variant="h5" component="div">
-            Banana
+            {props.fruitName}
           </Typography>
           <Typography variant="body2" color="text.secondary">
             Lizards are a widespread group of squamate reptiles, with over 6,000
